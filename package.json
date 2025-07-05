@@ -1,0 +1,36 @@
+{
+  "name": "@zerowillreborn/secure-password-generator",
+  "version": "1.0.1",
+  "description": "CLI + API to generate secure passwords with options for length, symbols, and readability",
+  "main": "src/index.js",
+  "bin": {
+    "secure-pass": "./bin/cli.js"
+  },
+  "types": "index.d.ts",
+  "keywords": [
+    "password",
+    "secure",
+    "cli",
+    "node",
+    "generator"
+  ],
+  "author": "Achal Chaudhary",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/generator.test.js"
+  },
+  "dependencies": {
+    "@zerowillreborn/secure-password-generator": "^1.0.1",
+    "chalk": "^5.4.1",
+    "clipboardy": "^4.0.0",
+    "commander": "^14.0.0",
+    "figlet": "^1.8.1",
+    "gradient-string": "^3.0.0"
+  }
+}
