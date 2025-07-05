@@ -1,6 +1,6 @@
 {
   "name": "@zerowillreborn/secure-password-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI + API to generate secure passwords with options for length, symbols, and readability",
   "main": "src/index.js",
   "bin": {
@@ -26,7 +26,6 @@
     "test": "node test/generator.test.js"
   },
   "dependencies": {
-    "@zerowillreborn/secure-password-generator": "^1.0.1",
     "chalk": "^5.4.1",
     "clipboardy": "^4.0.0",
     "commander": "^14.0.0",
